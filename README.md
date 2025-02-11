@@ -309,3 +309,12 @@ See [LICENCE](./LICENCE.md)
 ## Legal Disclaimer
 
 _Despite using React and DraftJs, the BBC is not promoting any Facebook products or other commercial interest._
+
+
+```
+podman build -t react-transcript-editor .
+```
+
+```
+podman run -p 8080:80 react-transcript-editor
+```
